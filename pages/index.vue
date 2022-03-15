@@ -1,12 +1,19 @@
 <template>
   <div id="page">
-    <div class="container">
-      <div class="is-flex is-justify-content-center">
-        <div class="">
+    <div class="container is-fullheight">
+      <div class="is-flex is-justify-content-center is-align-items-center is-fullheight">
+        <div class="mx-5 is-hidden-mobile" style="width: 300px;">
+          <figure class="image">
+            <img src="~/assets/screenshot1.png">
+          </figure>
         </div>
-        <div class="">
+        <div class="mx-5">
           <div class="box">
-            <DownloadLatest/>
+            <h1 class="title">GogoAnime - Unofficial App</h1>
+            <h2 class="subtitle">Download the latest version</h2>
+            <div class="">
+              <DownloadLatest/>
+            </div>
           </div>
         </div>
       </div>
@@ -21,10 +28,11 @@ export default {
 </script>
 
 <style>
-html, #page{
-  width: 100%;
-  height: 1000;
+html {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+html, body, #page, #__nuxt, #__layout, .is-fullheight {
+  height: 100%;
 }
 </style>
