@@ -21,7 +21,7 @@ export default {
     }
   },
   mounted () {
-    axios.get('https://api.github.com/repos/Konloch/bytecode-viewer/releases/latest')
+    axios.get('https://api.github.com/repos/hugo4715/GogoApp/releases/latest')
       .then((response) => {
         this.info = response.data
         console.log(this.info)
