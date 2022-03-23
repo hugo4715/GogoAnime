@@ -1,5 +1,5 @@
 <template>
-  <div v-if="this.info" class="mx-auto">
+  <div v-if="this.info">
       <b-button type="is-success" icon-left="download" @click="downloadLatest">
       {{this.info.name}}
       </b-button>
