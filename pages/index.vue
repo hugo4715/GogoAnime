@@ -12,7 +12,7 @@
             <h1 class="title">GogoAnime - Unofficial App</h1>
             <h2 class="subtitle">How to install</h2>
             <ol class="mx-4 mb-4">
-              <li>Create an account on GogoAnime</li>
+              <li>Create an account on <a href="https://gogoanime.fi/">GogoAnime</a></li>
               <li>Download and install the APK</li>
               <li>Login using your account and start watching</li>
             </ol>
